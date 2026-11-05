@@ -7,7 +7,7 @@ Ever tried to borrow a projector or an extension cord from a school office and e
 It's a desktop app with no database and no server. Everything lives in plain text files, which keeps it easy to run and easy to understand.
 
 # **Users**
- For students and teachers
+> **For students and teachers**
  
 • Sign up and sign in with a 10-digit ID (the admin has to register your ID first, so random people can't make accounts)
 
@@ -23,8 +23,9 @@ It's a desktop app with no database and no server. Everything lives in plain tex
 
 • Ask for help if you forgot your password or want your account deleted
 
-For the admin
-<br>
+
+> **For the admin**
+
 
 • Dashboard with live counts of total, available, borrowed, overdue, and pending items
 
