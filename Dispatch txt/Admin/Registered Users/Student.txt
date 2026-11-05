@@ -1,0 +1,6 @@
+2021005010|Reyes|Alberto|F||||Active|123456789|0|false
+2023003421||||Information Technology|2||Active||0|false
+2023004310|||||||Inactive||0|false
+2025001230|||||||Inactive||0|false
+2025003190|Alburo|April Lee|Zafra|BSIT|1||Active|asd1234acjn|2|false
+2025004791|Dichoso|Clifford James|P||||Active|cj12345|0|false

@@ -1,0 +1,9 @@
+1|2025004791|Student|EQ-6|Arnis|1|for performance in pathfit||10-26-2026 03:09 PM|Returned|late|10-26-2026 04:20 PM|11-02-2026 04:23 PM|Good|30|true|10-26-2026 03:30 PM|0.0|0.0
+2|2025004799|Teacher|EQ-4|Projector|2|movive marathon||10-26-2026 04:15 PM|Rejected|||||0|false||0.0|0.0
+3|2025004791|Student|EQ-12|Network Cable Tester|1|gusto ko lang||11-02-2026 04:43 PM|Returned|[Damaged: item cost PHP 20.00/unit, charge PHP 10.00, paid PHP 100.00]|11-03-2026 09:53 PM|10-27-2026 11:48 PM|Damaged|0|true|11-02-2026 04:45 PM|10.0|100.0
+4|2025004799|Teacher|EQ-13|Ethernet Cable|3|project||11-02-2026 04:53 PM|Returned|[Lost: item cost PHP 250.00/unit, charge PHP 750.00, paid PHP 750.00]|10-27-2026 11:46 PM|10-27-2026 11:47 PM|Lost|0|false|11-03-2026 09:33 PM|750.0|750.0
+5|2025004791|Student|EQ-32|Ball|1|i need||11-02-2026 05:02 PM|Rejected|||||0|false||0.0|0.0
+6|2025003190|Student|EQ-9|Digital Keyboard|1|Music Club||11-03-2026 09:38 PM|Returned|Goods|11-03-2026 09:53 PM|10-27-2026 09:55 PM|Good|0|true|11-03-2026 09:44 PM|0.0|0.0
+7|2025003190|Student|EQ-8|Acoustic Guitar|1|Because||10-29-2026 09:46 AM|Pending|||||0|false||0.0|0.0
+8|2025003190|Student|EQ-9|Digital Keyboard|1|Why not||10-29-2026 09:46 AM|Pending|||||0|false||0.0|0.0
+9|2021005010|Student|EQ-6|Arnis|1|For performance task in Pathfit||11-05-2026 09:28 PM|Pending|||||0|false||0.0|0.0

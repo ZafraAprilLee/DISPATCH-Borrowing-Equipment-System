@@ -1,0 +1,45 @@
+Users
+-The system has three types of users: Student, Teacher, and Admin.
+-Each user must have a unique User ID. User IDs start with ST (Student), TC (Teacher), or AD (Admin).
+-Each user record contains a first name, an optional middle initial, a last name, a role, and the date the account was created.
+-Each Student has exactly one student account with a unique Student Number.
+-Each Teacher has exactly one teacher account with a unique Employee Number.
+-Each Admin has exactly one administrator account with a unique Employee Number.
+-A Student or Teacher can browse equipment and submit requests to borrow equipment.
+-An Admin can manage equipment records, approve or reject requests, and manage borrowed equipment records.
+
+Equipment
+-Each equipment record must have a unique Equipment ID.
+-Each equipment record contains an equipment name, category, serial number, location, quantity, and status.
+-Each equipment record belongs to one category. The category is stored as a label on the record, and many equipment records can share the same category.
+-Each equipment record is stored at one location (for example, a lab and cabinet, shelf, or locker).
+-Each equipment record has one serial number and one quantity, which is the number of units of that equipment the school owns.
+-The status of an equipment record is either Available or Unavailable. A new equipment record is Available by default.
+-Equipment that is Unavailable cannot be requested or borrowed until an Admin changes its status.
+-Equipment can only be requested or borrowed when at least one unit is not currently borrowed. The number of units still available is the equipment quantity minus the quantity currently borrowed.
+
+Requests
+-Each request must have a unique Request ID.
+-A Student or Teacher submits a request for one equipment item and a quantity. Each request is for exactly one equipment record and one borrower.
+-The borrower is identified by their Student Number (for students) or Employee Number (for teachers).
+-Each request records the quantity requested, which is 1 by default, and the date requested, which is recorded automatically.
+-A request has one of these statuses: Pending, Approved, Rejected, or Cancelled. A new request is Pending by default.
+-An Admin must approve a request before the equipment is released to the borrower.
+-The quantity requested must not be more than the number of units available.
+-An equipment record can be requested by many borrowers over time.
+
+Borrowing
+-Every borrow record is created from a request. Each borrow record stores the Request ID of that request and must have one.
+-Only an Approved request can be released as a borrow record, and an approved request is released once.
+-A borrow record has the same equipment, borrower, and quantity as the request it comes from.
+-Each borrow record must have a unique Borrow ID.
+-Each borrow record is for exactly one equipment record and one borrower.
+-Each borrow record contains the quantity borrowed, which is 1 by default.
+-The date borrowed is recorded automatically when the borrow record is created.
+-A borrow record has one of these statuses: Borrowed or Returned. A new borrow record is Borrowed by default.
+-The total quantity currently borrowed for an equipment record must not be more than that equipment's quantity.
+-An equipment record can be borrowed by many borrowers over time.
+
+Returns
+-When equipment is returned, an Admin changes the status of the borrow record from Borrowed to Returned.
+-Returned units count as available again.
