@@ -43,6 +43,25 @@ It's a desktop app with no database and no server. Everything lives in plain tex
 
 • Deletion requests: users can ask to have their account removed, and the admin approves or rejects
 
+# **Data Structure**
+
+• FIFO Queue for requests
+
+• Binary search & Selection sort for looking up equipment and requests by ID
+
+• Insertion sort to keep users ordered by ID
+
+• ArrayList of Objects for Users and Equipments
+
+# **OOP Concepts Applied**
+
+• Abstraction
+
+• Inheritance
+
+• Polymorphism
+
+• Encapsulation
 
 # **Screenshots**
 <p align="center">Login Page</p>
